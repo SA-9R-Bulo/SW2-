@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Club Registration</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+</head>
+<body>
+    <div class="container my-5">
+        <div class="header">
+            <h1 id="Text">Robotics Club Registration Form</h1>
+            <p>Join the future of innovation and technology today!</p>
+        </div>
+        <div class="content">
+            <h2 style="color: lightblue;" id="Text" >About the Robotics Club</h2>
+            <img src="robotics-club.jpg" alt="Robotics Club Image" class="img-fluid mb-3">
+            <p style="color: lightblue;" id="Text">The Robotics Club is a community of tech enthusiasts eager to explore the fascinating world of robotics. Through engaging activities, members will learn about robot design, coding, and cutting-edge technology while working on exciting projects.</p>
+            <hr>
+            <h3 style="color: lightblue;" id="Text" >Registration Form</h3>
+            <form>
+                <!-- Name -->
+                <div class="mb-3">
+                    <label style="color: lightblue;"  for="name" class="form-label" id="Text">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+                </div>
+
+                <!-- Age -->
+                <div class="mb-3">
+                    <label style="color: lightblue;" for="age" class="form-label" id="Text">Age</label>
+                    <input type="number" class="form-control" id="age" placeholder="Enter your age">
+                </div>
+
+                <!-- Email -->
+                <div class="mb-3">
+                    <label style="color: lightblue;" for="email" class="form-label" id="Text">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                
+                <!-- Phone -->
+                <div class="mb-3">
+                    <label  style="color: lightblue;" for="phone" class="form-label" id="Text">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+                </div>
+                <!-- Topics -->
+                <div class="mb-3">
+                    <label class="form-label" style="color: lightblue;" id="text">Topics of Interest</label><br>
+                    <div class="form-check">
+                        <input  class="form-check-input" type="checkbox" id="topic1" value="robotics">
+                        <label  style="color: lightblue;" class="form-check-label" for="topic1" id="Text">Robotics Design</label>
+                    </div>
+                    <div class="form-check">
+                        <input  class="form-check-input" type="checkbox" id="topic2" value="coding">
+                        <label style="color: lightblue;" class="form-check-label" for="topic2" id="Text">Coding</label>
+                    </div>
+                    <div class="form-check">
+                        <input  class="form-check-input" type="checkbox" id="topic3" value="ai">
+                        <label style="color: lightblue;" class="form-check-label" for="topic3" id="Text">Artificial Intelligence</label>
+                    </div>
+                </div>
+
+                <!-- Level -->
+                <div class="mb-3">
+                    <label style="color: lightblue;" class="form-label" id="text">Experience Level</label><br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="level" id="beginner" value="beginner">
+                        <label style="color: lightblue;" class="form-check-label" for="beginner"id="Text">Beginner</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="level" id="intermediate" value="intermediate">
+                        <label style="color: lightblue;" class="form-check-label" for="intermediate" id="Text">Intermediate</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="level" id="advanced" value="advanced">
+                        <label style="color: lightblue;" class="form-check-label" for="advanced" id="Text">Advanced</label>
+                    </div>
+                </div>
+                
+                <!-- Projects -->
+                <div class="mb-3">
+                    <label style="color: lightblue;" for="projects" class="form-label" id="Text" >Select a Project</label>
+                    <select class="form-select" id="projects">
+                        <option style="color: lightblue;"  selected disabled>Choose...</option>
+                        <option  style="color: lightblue;" value="autonomous-robot" id="Text">Autonomous Robot</option>
+                        <option  style="color: lightblue;" value="robot-arm" id="Text">Robot Arm</option>
+                        <option style="color: lightblue;" value="drone" id="Text">Drone</option>
+                    </select>
+                </div>
+                
+                <!-- Reason -->
+                <div class="mb-3">
+                    <label  style="color: lightblue;" for="reason" class="form-label" id="Text">Why do you want to join?</label>
+                    <textarea class="form-control" id="reason" rows="4" placeholder="Write your reason here"></textarea>
+                </div>
+                <!-- Submit -->
+                <button  type="submit" class="btn btn-primary" id="Text" >Submit</button>
+            </form>
+        </div>
+        <div class="footer">
+            <p style="color: lightblue;" id="Text" >Images and content sourced from <a href="https://example.com" target="_blank">example.com</a>.</p>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

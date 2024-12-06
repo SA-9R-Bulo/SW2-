@@ -1,0 +1,38 @@
+        body {
+            background-image: url('Robotic.jpg'); /* Correct syntax */
+            background-size: cover; /* Ensure the image covers the entire background */
+            background-repeat: no-repeat; /* Prevent tiling */
+            background-position: center; /* Center the image */
+        }
+        .header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .content {
+           padding: 20px;
+           background-color: black; 
+           border-radius: 5px;
+           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+           opacity: 0.9; /* Slight transparency */
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+
+       #Text {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.container {animation: backInLeft;
+     animation-duration: 2s;
+}
+
+
